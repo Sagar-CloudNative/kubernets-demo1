@@ -24,7 +24,7 @@ RUN rm -rf photogenic photogenic.zip
 ENTRYPOINT ["/usr/sbin/httpd", "0", "FOREGROUND"]
 
 
-EXPOSE 80  # Corrected port to 80 for standard http access
+EXPOSE 80 22 
 
 
 WORKDIR /var/www/html/
