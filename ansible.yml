@@ -2,7 +2,7 @@
   become: false
   tasks:
     - name: create new deployment
-      command: kubectl apply -f /home/rockylinux/Deployment.yml
+      command: kubectl apply -f /home/centos/Deployment.yml
     - name: create new service 
-      command: kubectl apply -f /home/rockylinux/Service.yml
+      command: kubectl apply -f /home/centos/Service.yml
             
