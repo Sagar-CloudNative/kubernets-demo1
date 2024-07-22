@@ -11,4 +11,4 @@ spec:
   ports: # Ports exposed by the service
   - port: 8080 # Port number exposed by the service
     targetPort: 80 # Port number the service forwards to in the pod containers
-    nodeport: 31200
+   # nodeport: 31200
